@@ -1,0 +1,41 @@
+GET / HTTP/1.1
+Host: apple.com.au:443
+Accept-Charset: utf-8
+User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; SM-G950U1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+
+HTTP/1.1 301 Redirect
+Connection: close
+Content-Length: 307
+Cache-Control: no-store
+Cdnuuid: 325402b1-6d4e-47ea-ba65-43db2d2bac6a-1778737611
+Content-Language: en
+Content-Type: text/html
+Date: Tue, 25 Jan 2022 07:14:21 GMT
+Location: https://www.apple.com/au/
+Server: ATS/9.0.3
+Via: http/1.1 sgsin8-edge-bx-008.ts.apple.com (ApacheTrafficServer/9.0.3)
+X-Cache: none
+
+GET /au/ HTTP/0.0
+Host: www.apple.com
+Accept-Charset: utf-8
+Referer: https://apple.com.au:443
+User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; SM-G950U1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+
+HTTP/1.1 200 OK
+Connection: close
+Cache-Control: max-age=141
+Content-Security-Policy: default-src 'self' blob: data: *.akamaized.net *.apple.com *.apple-mapkit.com *.cdn-apple.com *.organicfruitapps.com; child-src blob: embed.music.apple.com embed.podcasts.apple.com www.apple.com www.instagram.com platform.twitter.com www.youtube-nocookie.com; img-src 'unsafe-inline' blob: data: *.apple.com *.apple-mapkit.com *.cdn-apple.com *.mzstatic.com; script-src 'unsafe-inline' 'unsafe-eval' blob: *.apple.com *.apple-mapkit.com www.instagram.com platform.twitter.com; style-src 'unsafe-inline' *.apple.com
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 25 Jan 2022 07:14:22 GMT
+Expires: Tue, 25 Jan 2022 07:16:43 GMT
+Server: Apple
+Set-Cookie: geo=IN; path=/; domain=.apple.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+Vary: Accept-Encoding
+X-Cache: TCP_REFRESH_MISS from a23-44-10-31.deploy.akamaitechnologies.com (AkamaiGHost/10.7.0-38102849) (S)
+X-Cache-Remote: TCP_HIT from a23-210-93-103.deploy.akamaitechnologies.com (AkamaiGHost/10.7.0-38102849) (-)
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

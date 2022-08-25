@@ -1,0 +1,32 @@
+GET / HTTP/1.1
+Host: training.apple.com.au:80
+Accept-Charset: utf-8
+User-Agent: Mozilla/5.0 (Linux; Android 9; VTR-L09) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 162
+Content-Type: text/html
+Date: Tue, 25 Jan 2022 07:14:35 GMT
+Location: https://training.apple.com/
+Server: Apple
+
+GET / HTTP/0.0
+Host: training.apple.com
+Accept-Charset: utf-8
+Referer: http://training.apple.com.au:80
+User-Agent: Mozilla/5.0 (Linux; Android 9; VTR-L09) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Content-Security-Policy: default-src 'self'  'unsafe-inline' *.apple.com *.2o7.net; img-src *.apple.com *.2o7.net data: 'unsafe-inline'; style-src 'unsafe-inline' *.apple.com
+Content-Type: text/html; charset=utf-8
+Date: Tue, 25 Jan 2022 07:14:40 GMT
+Host: training.apple.com
+Server: Apple
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

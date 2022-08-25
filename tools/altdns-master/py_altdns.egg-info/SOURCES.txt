@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+altdns/__init__.py
+altdns/__main__.py
+py_altdns.egg-info/PKG-INFO
+py_altdns.egg-info/SOURCES.txt
+py_altdns.egg-info/dependency_links.txt
+py_altdns.egg-info/entry_points.txt
+py_altdns.egg-info/requires.txt
+py_altdns.egg-info/top_level.txt

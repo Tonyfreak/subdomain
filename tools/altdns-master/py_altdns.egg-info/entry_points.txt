@@ -1,0 +1,3 @@
+[console_scripts]
+altdns = altdns.__main__:main
+
